@@ -107,6 +107,7 @@ export default function Home() {
             <p className="mr-12">Date Created</p>
             <Icon name="folder" size="3xl" color="gray" />
           </div>
+          
         {snapShot?.docs.map(doc => (
           <DocumentRow
             key={doc.id}
@@ -117,7 +118,7 @@ export default function Home() {
         ))}
         </div>
       </section>
-      
+
     </div>
   )
 }
